@@ -1,0 +1,223 @@
+.grid-container{
+    display: grid;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+.first-box{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgba(6, 142, 158, 0.615);
+    position: absolute;
+     left: 45px;
+     top: 12px;
+}
+h4{
+   position: absolute;
+   top: 52px;
+   left: 45px; 
+   color: rgb(116, 187, 8);
+   }
+h5{
+    position: absolute;
+    left: 45px;
+    top: 92px;
+}
+.perfect{
+    position: absolute;
+    left: 45px;
+    top: 120px;
+}
+#gain{
+    color: rgba(12, 12, 111, 0.155);
+}
+
+/* Start of the second-box */
+.second-box{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(3, 179, 164);
+    border-radius: 0px 0px 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    color: white;
+}
+#monthly{
+    position: absolute;
+    top: 10px;
+    color: white;
+    opacity: 0.9;
+}
+.twenty-nine{
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    color: white;
+    opacity: 0.9;
+    font-size: 25px;
+    font-weight: bold;
+}
+span{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: white;
+    opacity: 0.5;
+    font-size: 13px;
+}
+#full{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    opacity: 0.9;
+}
+.sign-up{
+    position: absolute;
+    left: 45px;
+    top: 170px;
+    width: 204px;
+    height: 40px;
+    background-color: rgb(129, 201, 20);
+    text-align: center;
+    border-radius: 5px;
+}
+.sign-up a{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+/* Start of the third-box */
+
+.third-box{
+    height: 250px;
+    width: 301px;
+    background-color: rgba(3, 179, 164, 0.703);
+    border-radius: 0px 0px 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    color: white;
+    margin: -250px 300px;
+}
+.why{
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    color: white;
+    opacity: 0.9;
+   
+}
+.reasons{
+    opacity: 0.6;
+    position: absolute;
+}
+#tutorials{
+    top: 45px;
+    left: 45px;
+}
+#peer{
+    top: 65px;
+    left: 46px;
+}
+#coding{
+    top: 85px;
+    left: 46px;
+}
+#access{
+    top: 105px;
+    left: 46px;
+}
+#forum{
+    top: 125px;
+    left: 46px;
+}
+#decks{
+    top: 145px;
+    left: 46px;
+}
+#new{
+    top: 165px;
+    left: 46px;
+}
+/* for mobile screens */
+@media only screen and (max-width: 700px) {
+    body{
+        height: 785px;
+    }
+    
+    .grid-container{
+        display: grid;
+        width: 300px;
+        margin-top: 24%;
+    }
+    .first-box{
+        width: 298.6px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px 5px 0px 0px;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h3{
+        color: rgba(6, 142, 158, 0.615);
+        position: absolute;
+         left: 45px;
+         top: 5px;
+    }
+
+    h4{
+        position: absolute;
+        top: 42px;
+        left: 45px; 
+        color: rgb(116, 187, 8);
+        }
+        h5{
+            position: absolute;
+            left: 45px;
+            top: 92px;
+        }
+        .perfect{
+            position: absolute;
+            left: 45px;
+            top: 150px;
+        }
+        #gain{
+            color: rgba(12, 12, 111, 0.155);
+        }
+
+
+    .second-box{
+        height: 250px;
+        width: 300px;
+        background-color: rgb(3, 179, 164);
+        border-radius: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        color: white;
+    }
+
+    .third-box{
+        height: 250px;
+        width: 300px;
+        background-color: rgba(3, 179, 164, 0.703);
+        border-radius: 0px 0px 5px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        color: white;
+        margin: 0px 0px;
+    }
+}
